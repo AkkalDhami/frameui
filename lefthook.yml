@@ -1,6 +1,6 @@
 pre-commit:
   jobs:
-    - run: pnpm fix {staged_files}
+    - run: pnpm fix:staged
       glob:
         - "**/*.js"
         - "**/*.jsx"
